@@ -271,7 +271,7 @@ if(sentmain[temp1-1]=='1'){
 }
 
 int main(){
-printf("SALAM\nenter solve\n");
+printf("SALAM\nEnter the question to solve it please 🙏.\n");
 string temstrm1;
 cin >> temstrm1;
 sentmain.append(temstrm1);
@@ -279,6 +279,6 @@ sentmain.append(")");
 feck();
 getval();
 string val=calculator______solve();
-cout<<endl<<endl<<endl<<val<<endl<<endl<<endl<<"\nthis sentence you entered equal : "<<val<<endl;
+cout<<endl<<endl<<endl<<val<<endl<<endl<<endl<<"\nThe question you entered is equal to : "<<val<<endl;
 return 0;
 }
